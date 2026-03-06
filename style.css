@@ -7,7 +7,7 @@ body, html {
 
 .hero {
   position: relative;
-  height: 80vh;
+  height: 100vh;
   color: white;
   display: flex;
   flex-direction: column;
@@ -198,4 +198,14 @@ display:inline-block;
 .game-image img{
 width:220px;
 border-radius:15px;
+}
+
+.btn-Hexcolor{
+background:var(--btn-color);
+color:white;
+border:none;
+}
+
+.btn-Hexcolor:hover{
+background:var(--btn-hover);
 }
